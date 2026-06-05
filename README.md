@@ -150,5 +150,4 @@ see the public DDRE-33 dataset:
 
 ## Citation
 
-Please cite the associated paper if you use this code. A BibTeX entry can be
-added here after publication.
+......
