@@ -1,0 +1,8 @@
+input_csv: result/final_test_tables/combined_9day_selected.csv
+output_dir: figures/final_test_boxplots
+methods:
+  - NoControl
+  - Rule
+  - MPC_true_forecast
+  - SAC_VIB
+  - RARR_VIB_SAC

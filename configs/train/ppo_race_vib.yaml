@@ -1,0 +1,9 @@
+policy: PPO
+rd_method: RARR_VIB
+episodes: 1200
+seed: 1
+batch_size: 256
+start_timesteps: 960
+reward_train_start: 512
+eval_freq: 20
+wandb_mode: disabled

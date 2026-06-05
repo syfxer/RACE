@@ -1,0 +1,4 @@
+baseline: RuleBasedBESS
+max_timesteps: 9600
+eval_freq: 96
+eval_episodes: 1

@@ -1,0 +1,4 @@
+input_dir: result/pre_ex/electric_metric
+output_dir: figures/pre_ex_learning_curves
+layout: 3x4
+seeds: [40, 41, 42, 43, 44]

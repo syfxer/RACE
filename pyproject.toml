@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "race-bess-control"
+version = "0.1.0"
+description = "Recoverability-aware credit evaluation for sparse-reward BESS control on IEEE 33-bus distribution systems."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "RACE authors" }]
+
+[tool.setuptools.packages.find]
+include = ["race*"]

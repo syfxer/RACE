@@ -1,0 +1,6 @@
+baseline: MPC_true_forecast
+max_timesteps: 9600
+eval_freq: 96
+eval_episodes: 1
+mpc_horizon: 6
+mpc_action_grid_size: 9

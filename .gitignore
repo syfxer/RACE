@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime/cache outputs
+.runtime_cache/
+wandb/
+wandb_result/
+train_model/
+outputs/
+results/
+result/
+
+# Generated figures and large intermediate files
+figures/**/*.png
+figures/**/*.pdf
+!docs/assets/**/*.png
+!docs/assets/**/*.pdf
+
+# Logs/checkpoints
+*.log
+*.pt
+*.pth
+*.ckpt
+*.npz
